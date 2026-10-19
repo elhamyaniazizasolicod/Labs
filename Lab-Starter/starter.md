@@ -9,7 +9,7 @@ paginate: true
 
 **Objectif :** Installer et configurer Visual Studio Code et les outils nécessaires au développement Web sous Windows.
 
-Présenté par : Oumaima Mahfoud  
+Présenté par : Aziza Elhamyni  
 SOLICODE
 
 ---

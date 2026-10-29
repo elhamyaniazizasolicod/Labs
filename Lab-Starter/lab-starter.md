@@ -141,7 +141,7 @@ style: |
 
 <div class="by">
   <strong>Etudiant : aziza elhamyani</strong>
-  <strong>Prof : ESSARRAJ FOUAD</strong>
+  <strong>Prof :ES-SARRAJ Fouad</strong>
   Development Environment Lab
 </div>
 

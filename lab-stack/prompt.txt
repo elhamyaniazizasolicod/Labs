@@ -1,0 +1,116 @@
+Crée une présentation Marp dans un seul fichier Markdown nommé **Lab-stack.md**.
+
+Le titre du projet est **« Labs & Stack Technique »** et le sujet est **« Gestion d'un répertoire de podcasts »**.
+
+### Consignes générales
+
+- Utilise Marp pour créer la présentation.
+- Format des diapositives : 16:9.
+- Utilise un design moderne, simple et professionnel.
+- Utilise les couleurs bleu foncé, turquoise, blanc et gris clair.
+- Utilise des cartes blanches et des sections bien organisées.
+- Le texte doit être court et facile à lire.
+- La présentation doit être en français simple et en anglais si nécessaire.
+
+### 1. Page de garde
+
+Ajoute les logos OFPPT et Solicode en haut de la page.
+
+Ajoute les informations suivantes :
+
+- **Labs & Stack Technique**
+- **Technical Project**
+- **Plateforme de cours**
+- **Réalisé par :** Aziza Elhamyani
+- **Encadrant :** ES-Saraj Fouad
+- **Centre de formation :** Solicode Tanger
+- **Institution :** OFPPT
+
+### 2. Introduction au projet technique
+
+Présente le projet technique avec des phrases simples.
+
+Explique que le projet permet de pratiquer ce que nous apprenons pendant la formation.
+
+Présente rapidement le sujet du projet.
+
+### 3. Présentation du projet
+
+Présente le projet **Plateforme de cours**
+
+Explique que c'est une application web pour gérer un répertoire de podcasts.
+
+Présente les principales fonctionnalités de l'application.
+
+### 4. Les technologies utilisées
+
+Présente les technologies utilisées dans le projet, avec une petite explication pour chaque technologie.
+
+**Structure et design :**
+
+- HTML
+- CSS
+- Tailwind CSS
+
+**Langages de programmation :**
+
+- JavaScript
+- PHP
+
+**Frameworks et bibliothèques :**
+
+- Laravel
+- Alpine.js
+
+**Base de données et ORM :**
+
+- MySQL
+- Eloquent ORM
+
+### 5. Comprendre les Labs
+
+Explique avec des mots simples :
+
+- Qu'est-ce qu'un Lab ?
+- Pourquoi faisons-nous des Labs ?
+- Quel est le lien entre les Labs et le projet technique ?
+
+Montre que les Labs nous permettent de découvrir les technologies, de pratiquer et de préparer le projet final.
+
+### 6. Liste des Labs
+
+Présente les 30 Labs dans quatre phases.
+
+**Phase 1 — Outils et technologies (1 à 10)**
+
+**Phase 2 — Méthodes et travail en équipe (11 à 16)**
+
+**Phase 3 — Développement et langages (17 à 24)**
+
+**Phase 4 — Projet et production (25 à 30)**
+
+Garde les 30 Labs et leurs noms. Présente-les dans des cartes avec une bonne organisation.
+
+### 7. Page de fin
+
+Ajoute une dernière diapositive avec :
+
+**Thank You!**
+
+**Questions?**
+
+Labs & Stack Technique
+
+### Design et présentation
+
+- Utilise un style professionnel et moderne.
+- Utilise des blocs HTML et CSS dans le fichier Markdown.
+- Utilise des cartes blanches.
+- Organise les contenus avec une grille de deux colonnes.
+- Utilise des titres clairs.
+- Garde les mêmes couleurs dans toutes les diapositives.
+- Évite les textes trop longs.
+- Assure-toi que le texte ne dépasse pas des diapositives.
+- Ajoute une numérotation des diapositives.
+
+**Résultat attendu :** un seul fichier nommé `Lab-stack.md`, prêt à être utilisé avec Marp, avec une présentation claire, complète et facile à comprendre.

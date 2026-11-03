@@ -73,6 +73,7 @@ Les débutants rencontrent plusieurs difficultés pour apprendre la programmatio
 
 Créer une plateforme simple qui facilite l'apprentissage de la programmation.
 
+<!-- uysuiuoiswlKMQ               -->
 ---
 
 # 3. Analyse des besoins
@@ -135,8 +136,6 @@ Exemples :
 - Page de connexion.
 - Page des cours.
 - Page des exercices.
-
----
 
 # 6. Résultat du projet
 

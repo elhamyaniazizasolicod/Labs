@@ -1,51 +1,51 @@
-# Lab Adaptation Skill — Standard Marp Presentation Structure
+# Compétence d'adaptation de Lab — Structure standard de présentation Marp
 
-## Purpose
-Adapt and realize any lab deliverable into a consistent, modern Marp presentation while strictly preserving the required structural flow and technical accuracy.
+## Objectif
+Adapter et réaliser tout livrable de lab sous forme d'une présentation Marp moderne et cohérente, tout en respectant strictement le déroulement structurel et la précision technique exigés.
 
 ---
 
-## Mandatory Slide Structure
+## Structure obligatoire des diapositives
 
-Every lab presentation **must be in Marp format** (`marp: true`) and follow this sequential slide structure:
+Chaque présentation de lab **doit être au format Marp** (`marp: true`) et respecter la structure séquentielle suivante :
 
-### Slide 1: Title (Lab Name Only)
-- **Content:** The title / name of the lab **only**.
-- **Rule:** **Never** include author or presenter names, student IDs, organization names, or extra sub-headers on Slide 1 unless explicitly requested.
+### Diapositive 1 : Titre (Nom du lab uniquement)
+- **Contenu :** Le titre / nom du lab **uniquement**.
+- **Règle :** Ne **jamais** inclure de noms d'auteurs ou de présentateurs, d'identifiants d'étudiants, de noms d'organisations ou de sous-titres superflus sur la Diapositive 1, sauf demande explicite.
 
-### Slide 2: Lab Plan
-- **Content:** The agenda of the presentation, strictly formatted as:
+### Diapositive 2 : Plan du lab
+- **Contenu :** L'ordre du jour de la présentation, strictement formaté ainsi :
   ```markdown
   <!-- _class: light -->
 
-  ## Lab Plan
+  ## Plan du lab
 
   1. Introduction
-  2. Problems Encountered
-  3. Solutions Implemented
+  2. Problèmes rencontrés
+  3. Solutions apportées
   ```
 
-### Slide 3: Introduction
-- Briefly explain the purpose, scope, and objectives of the lab based on the topic.
-- List the key concepts, tools, or syntax practiced during the lab.
+### Diapositive 3 : Introduction
+- Expliquer brièvement l'objectif, le périmètre et les finalités du lab selon le sujet traité.
+- Lister les concepts clés, les outils ou la syntaxe pratiqués au cours du lab.
 
-### Slide 4: Problems Encountered
-- Include concrete technical issues, obstacles, syntax pitfalls, or configuration challenges relevant to the lab.
-- If no incidents occurred, explicitly state that no blocking technical problems were encountered.
+### Diapositive 4 : Problèmes rencontrés
+- Détailler les problèmes techniques concrets, les obstacles, les pièges de syntaxe ou les difficultés de configuration liés au lab.
+- Si aucun incident n'est survenu, mentionner explicitement qu'aucun problème technique bloquant n'a été rencontré.
 
-### Slide 5: Solutions Implemented
-- Document concrete solutions, fixes, and best practices applied to resolve each problem or ensure compliance.
+### Diapositive 5 : Solutions apportées
+- Documenter les solutions concrètes, les correctifs et les bonnes pratiques appliqués pour résoudre chaque problème ou garantir la conformité.
 
-### Subsequent Slides: Practical Examples & Implementation
-- Include practical code blocks, commands, syntax demonstrations, diagrams, or tables **directly inside the Marp presentation slides**.
-- **Rule:** Do **not** create separate exercise or companion `.md` files; integrate all practical deliverables into the presentation.
+### Diapositives suivantes : Exemples pratiques & Implémentation
+- Inclure les blocs de code pratiques, commandes, démonstrations de syntaxe, diagrammes ou tableaux **directement à l'intérieur des diapositives de la présentation Marp**.
+- **Règle :** Ne **pas** créer de fichiers `.md` d'exercices ou annexes séparés ; intégrer l'intégralité des livrables pratiques au sein de la présentation.
 
 ---
 
-## Marp Presentation & Design Standards
+## Normes de présentation & conception Marp
 
-1. **Always Use Marp:**
-   - Every lab must be formatted for Marp with valid YAML frontmatter:
+1. **Toujours utiliser Marp :**
+   - Chaque lab doit être formaté pour Marp avec un en-tête frontmatter YAML valide :
      ```yaml
      ---
      marp: true
@@ -56,20 +56,20 @@ Every lab presentation **must be in Marp format** (`marp: true`) and follow this
        ...
      ---
      ```
-2. **Slide Separators:**
-   - Use `---` between every slide.
-3. **Alternating Visual Rhythm:**
-   - Alternate between dark background sections (standard) and light background sections (`<!-- _class: light -->`) to maintain audience engagement and high readability.
-4. **Typography & Code:**
-   - Clear headings (`Anton`, `Impact`, or sans-serif).
-   - High contrast body text (`Inter`, system-ui).
-   - Always declare syntax languages for code blocks (e.g., ```` ```html ````, ```` ```javascript ````, ```` ```bash ````, ```` ```php ````).
-   - Properly format Markdown tables with explicit column alignment (`:---`, `:---:`, `---:`).
+2. **Séparateurs de diapositives :**
+   - Utiliser `---` entre chaque diapositive.
+3. **Rythme visuel alterné :**
+   - Alterner entre les sections à fond sombre (standard) et les sections à fond clair (`<!-- _class: light -->`) afin de maintenir l'attention du public et garantir une lisibilité optimale.
+4. **Typographie & Code :**
+   - Titres clairs (`Anton`, `Impact`, ou sans-serif).
+   - Corps de texte à fort contraste (`Inter`, system-ui).
+   - Toujours spécifier le langage pour la coloration syntaxique des blocs de code (ex. : ```` ```html ````, ```` ```javascript ````, ```` ```bash ````, ```` ```php ````).
+   - Formater correctement les tableaux Markdown avec un alignement explicite des colonnes (`:---`, `:---:`, `---:`).
 
 ---
 
-## Operational Guidelines
+## Directives opérationnelles
 
-- **No Presenter Names:** Keep the cover slide focused strictly on the lab topic.
-- **Single Deliverable File:** Keep all documentation and examples inside the designated lab file (e.g. `lab-<topic>.md`).
-- **No Unnecessary Git Inquiries:** Commit and push cleanly when requested without running redundant inspection loops.
+- **Aucun nom de présentateur :** Conserver la diapositive de couverture strictement dédiée au sujet du lab.
+- **Fichier de livrable unique :** Conserver toute la documentation et les exemples à l'intérieur du fichier de lab désigné (ex. : `lab-<sujet>.md`).
+- **Pas de requêtes Git superflues :** Valider et pousser proprement (commit/push) à la demande sans exécuter de boucles d'inspection redondantes.

@@ -16,6 +16,7 @@ style: |
     justify-content: flex-start;
   }
 
+
   h1, h2 {
     font-family: 'Anton', Impact, 'Arial Narrow', sans-serif;
     font-weight: 400;

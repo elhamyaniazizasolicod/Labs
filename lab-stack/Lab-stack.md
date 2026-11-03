@@ -295,7 +295,7 @@ Nous testons les technologies avant de les utiliser dans le projet final.
 
 <div class="phase-card">
 
-## Phase 2 — Méthodes et travail en équipe (11–16)
+## Phase 2 — Méthodes et travail en équipe (11–15)
 
 <ol start="11">
 <li>2TUP — Méthode de développement</li>
@@ -303,16 +303,15 @@ Nous testons les technologies avant de les utiliser dans le projet final.
 <li>GitHub Issues — Gérer les tâches</li>
 <li>Scrum — Méthode de travail en équipe</li>
 <li>GitHub Copilot — Aide à la programmation</li>
-<li>ASCII — Dessiner avec du texte</li>
 </ol>
 
 </div>
 
 <div class="phase-card">
 
-## Phase 3 — Développement et langages (17–24)
+## Phase 3 — Développement et langages (16–24)
 
-<ol start="17">
+<ol start="16">
 <li>POO — Programmation orientée objet</li>
 <li>PHP Native — PHP sans framework</li>
 <li>Laravel — Framework PHP</li>

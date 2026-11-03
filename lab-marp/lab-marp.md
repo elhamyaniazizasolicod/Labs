@@ -30,8 +30,8 @@ style: |
 
 <!-- _class: cover -->
 
-![width:120 OFPPT](images/imag.png)
-![width:120 Solicode](images/image.png)
+![width:120 OFPPT](images/ofppt.png)
+![width:120 Solicode](images/solicode.png)
 
 # Plateforme de programmation informatique
 

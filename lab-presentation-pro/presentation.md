@@ -3,255 +3,251 @@ marp: true
 theme: default
 paginate: true
 size: 16:9
-backgroundColor: #F5F7FA
 style: |
   section {
-    font-family: Arial, sans-serif;
-    color: #263445;
-    padding: 45px;
+    background: #0b1730;
+    color: #eef4ff;
+    font-family: Inter, "Segoe UI", Arial, sans-serif;
+    font-size: 23px;
+    padding: 48px 64px;
+  }
+  h1, h2, h3 {
+    color: #55d6d2;
+    font-family: Inter, "Segoe UI", Arial, sans-serif;
   }
   h1 {
-    color: #12345A;
-    font-size: 34px;
+    font-size: 35px;
+    margin-bottom: 22px;
   }
   h2 {
-    color: #00A6A6;
-    font-size: 27px;
+    font-size: 29px;
   }
   strong {
-    color: #00A6A6;
+    color: #55d6d2;
+  }
+  section.light {
+    background: #f3f6fb;
+    color: #17243b;
+  }
+  section.light h1, section.light h2, section.light h3 {
+    color: #12345a;
+  }
+  section.light strong {
+    color: #087e8b;
   }
   section.title {
-    background: linear-gradient(135deg, #12345A, #087E8B);
-    color: white;
+    background: linear-gradient(135deg, #12345a, #087e8b);
+    color: #ffffff;
     text-align: center;
     justify-content: center;
   }
-  section.title h1, section.title h2 {
-    color: white;
+  section.title h1 {
+    color: #ffffff;
+    font-size: 48px;
   }
-  section.end {
-    background: #12345A;
-    color: white;
-    text-align: center;
-    justify-content: center;
+  section table {
+    font-size: 20px;
+    width: 100%;
   }
-  section.end h1 {
-    color: white;
+  section th {
+    color: #55d6d2;
+  }
+  section.light th {
+    color: #087e8b;
+  }
+  section pre {
+    font-size: 17px;
+  }
+  section code {
+    font-size: 0.9em;
+  }
+  section img {
+    max-height: 250px;
   }
 ---
 
 <!-- _class: title -->
 
-# Préparer et présenter un travail
-
-## Lab : Présentation professionnelle
-
-**Réalisé par :** Aziza ELhamyani
-
-**Encadrant :** ES-Saraj Fouad
-
-**Centre :** Solicode Tanger
-
-![width:100px](images/ofppt.png) ![width:100px](images/solicode.png)
+# Présentation professionnelle
 
 ---
 
-# 1. Introduction
+<!-- _class: light -->
 
-- Préparer une présentation.
-- Organiser les idées.
-- Expliquer le travail.
-- Présenter les résultats.
+## Plan du lab
 
-![bg right:40% width:350px](https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800)
-
----
-
-# 2. Plan générique
-
-1. Page de garde
-2. Introduction
-3. Développement
-4. Conclusion
-5. Sources
+1. Introduction
+2. Problèmes rencontrés
+3. Solutions apportées
 
 ---
 
-# 3. Règles de validation
+## 1. Introduction
 
-- **Page de garde :** titre et noms.
-- **Introduction :** sujet et objectif.
-- **Développement :** travail réalisé.
-- **Conclusion :** résultats et apprentissages.
-- **Sources :** références utilisées.
+### Faire comprendre une idée, pas lire une page
 
----
+**Objectif** — préparer et présenter clairement un travail.
 
-# 4. Exemple 1 : Présentation d'un Lab
+**Périmètre** — structure, contenu visuel, prise de parole et validation.
 
-![bg right:45% width:400px](https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800)
-
-**Plan :**
-
-- Titre du Lab
-- Objectifs
-- Technologies
-- Étapes du travail
-- Difficultés
-- Résultats
-- Conclusion
+**Repères** — objectif · étapes · résultats · sources.
 
 ---
 
-# Exemple 1 : Application pratique
+<!-- _class: light -->
 
-**Sujet : Laravel**
+## 2. Problèmes rencontrés
 
-- Apprendre Laravel.
-- Utiliser PHP.
-- Créer une application.
-- Afficher une page web.
+| Difficulté | Risque pour le public |
+|:---|:---|
+| Trop d'informations | Le message principal se perd |
+| Plan peu clair | Le public ne suit plus le fil |
+| Texte lu à l'écran | L'oral apporte peu de valeur |
+| Visuels ou styles incohérents | La présentation paraît moins soignée |
 
-**Résultat :** une page fonctionne.
-
----
-
-# 5. Exemple 2 : Veille technologique
-
-![bg right:45% width:400px](https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800)
-
-**Plan :**
-
-- Introduction
-- Sujet de la veille
-- Nouvelles technologies
-- Avantages et inconvénients
-- Exemples
-- Sources
-- Conclusion
+**Aucun incident technique bloquant n'est documenté pour ce lab.**
 
 ---
 
-# Exemple 2 : Intelligence artificielle
+## 3. Solutions apportées
 
-- L'IA est une technologie.
-- Elle aide les personnes.
-- Elle facilite le travail.
-- Elle permet de gagner du temps.
+### Une méthode simple, de la préparation à l'oral
 
-**Objectif :** découvrir les nouveautés.
-
----
-
-# 6. Exemple 3 : Projet technique
-
-![bg right:45% width:400px](https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=800)
-
-**Plan :**
-
-- Présentation du projet
-- Besoin et problème
-- Objectifs
-- Technologies
-- Réalisation
-- Résultats
-- Conclusion
+1. Définir le **public** et l'**objectif**.
+2. Organiser le propos : **introduction → développement → conclusion**.
+3. Réduire chaque diapositive à quelques **mots-clés**.
+4. Choisir des visuels utiles et garder un style cohérent.
+5. Répéter à l'oral et vérifier les sources.
 
 ---
 
-# Exemple 3 : Plateforme de cours
+<!-- _class: light -->
 
-- Apprendre la programmation.
-- Suivre des cours.
-- Pratiquer le code.
-- Aider les débutants.
+## Une structure qui guide le public
 
-**Technologies :**
+| Partie | Question à traiter |
+|:---|:---|
+| **Introduction** | De quoi parle-t-on ? Pourquoi ? |
+| **Développement** | Qu'a-t-on fait ? Comment ? |
+| **Conclusion** | Quel résultat ? Quel apprentissage ? |
+| **Sources** | Sur quelles références s'appuie-t-on ? |
 
-HTML · CSS · JavaScript · PHP · Laravel
-
----
-
-# 7. Exemple 4 : Projet fil rouge
-
-![bg right:45% width:400px](https://images.unsplash.com/photo-1521737711867-e3b97375f902?w=800)
-
-**Plan :**
-
-- Présentation du projet
-- Problème et besoin
-- Solution proposée
-- Équipe et rôles
-- Planification
-- Développement
-- Résultats
-- Prochaines étapes
+**Un fil conducteur. Une idée principale par étape.**
 
 ---
 
-# Exemple 4 : Travail en équipe
+## Exemple pratique · Présenter un lab
 
-- Chaque membre a un rôle.
-- Nous partageons les tâches.
-- Nous travaillons ensemble.
-- Nous développons une solution.
+### Objectif → démarche → résultat
 
-**Objectif :** réussir le projet.
+**01 · Objectif**  
+La compétence ou le problème traité
 
----
+**02 · Pratique**  
+Outils · étapes · difficultés · solutions
 
-# 8. Règles de style
-
-- Design simple et professionnel.
-- Couleurs faciles à lire.
-- Polices claires.
-- Images adaptées.
-- Titres courts.
-- Listes simples.
+**03 · Résultat**  
+Démonstration · apprentissages · suite
 
 ---
 
-# 9. Règle d'apprentissage : Zéro Texte
+<!-- _class: light -->
 
-![bg right:40% width:350px](https://images.unsplash.com/photo-1501504905252-473c47e087f8?w=800)
+## Exemple pratique · Choisir le bon plan
 
-**À éviter :**
-- Longs paragraphes.
-- Beaucoup de texte.
-- Copier des documents.
-
-**À faire :**
-- Utiliser des images.
-- Garder les mots importants.
-- Expliquer à l'oral.
+| Type de présentation | Fil conducteur |
+|:---|:---|
+| **Lab** | Objectif → pratique → résultat |
+| **Veille technologique** | Technologie → usages → actualités |
+| **Projet technique** | Besoin → solution → réalisation |
+| **Projet fil rouge** | Problème → équipe → résultats |
 
 ---
 
-# 10. Présenter à l'oral
+## Exemple pratique · Réduire le texte
 
-- Parler clairement.
-- Regarder la classe.
-- Expliquer les idées.
-- Ne pas lire les diapositives.
-- Respecter le temps.
+### Avant
 
----
+> Notre plateforme aide les débutants à apprendre la programmation en consultant des cours et en réalisant des exercices.
 
-# 11. Conclusion
+### Sur la diapositive
 
-- Un plan général.
-- Quatre exemples.
-- Des règles de validation.
-- Un design professionnel.
-- Peu de texte.
+**APPRENDRE** → **PRATIQUER** → **PROGRESSER**
 
-**Nous avons appris à mieux présenter notre travail.**
+*Les explications détaillées se donnent à l'oral.*
 
 ---
 
-<!-- _class: end -->
+<!-- _class: light -->
 
-# Merci pour votre attention !
+## Exemple pratique · Créer une diapositive Marp
 
-## Avez-vous des questions ?
+```markdown
+---
+marp: true
+theme: default
+paginate: true
+size: 16:9
+---
+
+## Un titre explicite
+
+Objectif → étapes → résultat
+```
+
+`---` sépare les diapositives.  
+Un titre clair et une idée centrale facilitent la lecture.
+
+---
+
+## Prendre la parole avec impact
+
+### La diapositive soutient l'orateur
+
+- **Expliquer**, ne pas réciter.
+- Parler clairement et regarder le public.
+- Développer les mots-clés à l'oral.
+- Respecter le temps prévu.
+- Accueillir les questions.
+
+---
+
+<!-- _class: light -->
+
+## Vérification avant présentation
+
+- [ ] Titre et objectif compréhensibles
+- [ ] Introduction, développement, conclusion
+- [ ] Une idée principale par diapositive
+- [ ] Texte lisible et visuels pertinents
+- [ ] Sources indiquées si nécessaire
+- [ ] Présentation répétée et durée vérifiée
+
+---
+
+## Conclusion
+
+### Une présentation réussie est claire, cohérente et vivante.
+
+**Moins de texte. Plus de visuels. Plus d'explication orale.**
+
+Préparer · organiser · présenter
+
+---
+
+<!-- _class: light -->
+
+## Sources
+
+- `skills.md` — objectifs, structure et règles de présentation professionnelle
+- `lab-marp.md` — structure et conventions de présentation Marp
+
+*Aucune source externe n'a été utilisée.*
+
+---
+
+<!-- _class: title -->
+
+# Merci
+
+## Questions ?

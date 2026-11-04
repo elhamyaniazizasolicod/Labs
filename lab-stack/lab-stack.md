@@ -109,37 +109,7 @@ style: |
     font-size: 1.8em;
     margin-bottom: 14px;
   }
-
-  .phase-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 12px;
-  }
-
-  .phase-card {
-    background: #FFFFFF;
-    border-left: 5px solid #16A6A1;
-    border-radius: 8px;
-    padding: 10px 14px;
-  }
-
-  .phase-card h2 {
-    font-size: 0.91em;
-    color: #087E8B;
-    margin: 0 0 5px 0;
-  }
-
-  .phase-card ol {
-    font-size: 0.67em;
-    line-height: 1.22;
-    margin: 0;
-    padding-left: 22px;
-  }
-
-  .phase-card li {
-    margin-bottom: 2px;
-  }
-
+  
   section.thanks {
     background: #12304A;
     color: #F7F9FC;
@@ -156,7 +126,7 @@ style: |
 
 <!-- _class: title -->
 <!-- _paginate: false -->
-
+<!-- Bonjour, aujourd'hui je vais vous présenter les Labs et les technologies de mon projet technique. -->
 ![width:120](images/ofppt.png)
 ![width:120](images/solicode.png)
 
@@ -175,7 +145,7 @@ style: |
 **Institution :** OFPPT
 
 ---
-
+<!-- Dans notre formation, nous apprenons plusieurs technologies pour créer une plateforme de cours en ligne. -->
 <!-- _class: intro -->
 
 # Projet technique
@@ -200,7 +170,7 @@ L'administrateur peut gérer :
 La plateforme permet de trouver les cours facilement et de bien organiser les informations..
 
 ---
-
+<!--Pour créer notre plateforme, nous utilisons plusieurs technologies. Chaque technologie a un rôle différent. -->
 <!-- _class: stack -->
 
 # Les technologies utilisées
@@ -215,34 +185,32 @@ Chaque technologie a un rôle.
 
 ## Structure et design
 
-- **HTML** — Crée la structure des pages.
-- **CSS** — Ajoute le style.
-- **Tailwind CSS** — Aide à créer le design.
-
-## Langages de programmation
-
-- **JavaScript** — Ajoute des actions dans les pages.
-- **PHP** — Gère les informations côté serveur.
-
-</div>
-
-<div>
-
-## Frameworks et bibliothèques
-
-- **Laravel** — Framework PHP.
-- **Alpine.js** — Ajoute des interactions dans les pages.
-
-## Base de données et ORM
-
-- **MySQL** — Stocke les informations.
-- **Eloquent ORM** — Aide à utiliser la base de données avec Laravel.
-
-</div>
-</div>
+| Technology | Role |
+|:---|:---|
+| Alpine.js | UI behavior |
+| Tailwind CSS | Styling |
+| Preline | Tailwind UI components |
+| Native PHP | Server-side language |
+| Laravel | PHP framework |
+| MySQL | Relational storage |
+| Kotlin | Android / backend development |
 
 ---
+## Project Tools
 
+| Tool | Purpose |
+|:---|:---|
+| Git | Version control |
+| GitHub | Code hosting and collaboration |
+| Agents | Automated tasks |
+| Markdown | Documentation |
+| OpenCode | AI coding environment |
+| Marp | Markdown presentations |
+| OmniRoute | AI model routing |
+| Antigravity | AI-assisted development |
+| GitHub Copilot | AI coding assistant |
+---
+<!-- Un Lab est un exercice pratique qui nous aide à découvrir une technologie et à apprendre à coder. -->
 # Comprendre les Labs
 
 ## Qu'est-ce qu'un Lab ?
@@ -261,84 +229,18 @@ Il permet de découvrir une technologie ou un outil.
 ## Le lien avec le projet technique
 
 Les Labs nous aident à préparer notre projet.
-
 Nous testons les technologies avant de les utiliser dans le projet final.
 
 > Un Lab permet de passer de la théorie à la pratique.
 
 ---
-
+<!-- Nous avons 30 Labs dans notre formation. Ils sont organisés en quatre phases pour apprendre étape par étape. -->
 <!-- _class: labs -->
 
 # Liste des Labs
-
-<div class="phase-grid">
-
-<div class="phase-card">
-
-## Phase 1 — Outils et technologies (1–10)
-
-<ol>
-<li>Qu'est-ce qu'un Lab ? — Découvrir les Labs</li>
-<li>Markdown — Écrire des documents</li>
-<li>GitHub Pages — Publier un site web</li>
-<li>Antigravity — Gérer un projet Python</li>
-<li>Marp — Créer des présentations</li>
-<li>OpenCode — Environnement de développement</li>
-<li>Pandoc — Convertir des documents</li>
-<li>OmniRoute — Gérer le routage</li>
-<li>Tailwind CSS — Créer le design</li>
-<li>Preline — Utiliser des composants web</li>
-</ol>
-
-</div>
-
-<div class="phase-card">
-
-## Phase 2 — Méthodes et travail en équipe (11–15)
-
-<ol start="11">
-<li>2TUP — Méthode de développement</li>
-<li>Design Thinking — Comprendre les besoins</li>
-<li>GitHub Issues — Gérer les tâches</li>
-<li>Scrum — Méthode de travail en équipe</li>
-<li>GitHub Copilot — Aide à la programmation</li>
-</ol>
-
-</div>
-
-<div class="phase-card">
-
-## Phase 3 — Développement et langages (16–24)
-
-<ol start="16">
-<li>POO — Programmation orientée objet</li>
-<li>PHP Native — PHP sans framework</li>
-<li>Laravel — Framework PHP</li>
-<li>Kotlin — Langage de programmation</li>
-<li>ES7 JavaScript — JavaScript moderne</li>
-<li>Erreurs JS — Comprendre les erreurs JavaScript</li>
-<li>Prompt-Agent-Skill — Utiliser l'IA</li>
-<li>Communication avec IA — Parler avec l'IA</li>
-</ol>
-
-</div>
-
-<div class="phase-card">
-
-## Phase 4 — Projet et production (25–30)
-
-<ol start="25">
-<li>Veille technologique — Suivre les nouveautés</li>
-<li>Starter — Utiliser un modèle de projet</li>
-<li>Planning — Organiser le travail</li>
-<li>Git — Gérer les versions du code</li>
-<li>Lab Stack — Découvrir les technologies</li>
-<li>Agent — Automatiser des tâches avec l'IA</li>
-</ol>
-
-</div>
-</div>
+| Phase 1 · Foundations & Tools | Phase 2 · Methods & Collaboration | Phase 3 · Development & Languages | Phase 4 · Project & Production |
+|:---|:---|:---|:---|
+| 1. What is a Lab?<br>2. Markdown<br>3. GitHub Pages<br>4. Antigravity<br>5. Marp<br>6. OpenCode<br>7. Pandoc<br>8. OmniRoute | 11. 2TUP<br>12. Design Thinking<br>13. GitHub Issues<br>14. Scrum<br>15. GitHub Copilot<br>16. ASCII | 9. Tailwind CSS<br>10. Preline<br>17. OOP<br>18. Native PHP<br>19. Laravel<br>20. Kotlin<br>21. ES7 JavaScript<br>22. JS Errors<br>23. Prompt-Agent-Skill | 24. AI Communication<br>25. Tech Watch<br>26. Starter<br>27. Planning<br>28. Git<br>29. Lab Stack<br>30. Agent |
 
 ---
 

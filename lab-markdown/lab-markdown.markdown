@@ -1,14 +1,12 @@
 
-
 # Présentation de mon projet technique
 
-## Une plateforme de code
+## Plateforme De Cours
 
----
 
 # 1. Sujet du projet
 
-Mon projet technique est une **plateforme de code**.
+Mon projet technique est une **Plateforme De Cours**.
 
 C'est une plateforme qui permet aux utilisateurs d'apprendre la programmation et de pratiquer le code.
 
@@ -101,7 +99,7 @@ Pour apprendre et développer la plateforme :
 
 # 8. Conclusion
 
-Pour conclure, mon projet est une **plateforme de code** destinée aux débutants de niveau A1.
+Pour conclure, mon projet est une **Plateforme De Cours** destinée aux débutants de niveau A1.
 
 Son objectif est de rendre l'apprentissage de la programmation simple, pratique et accessible.
 

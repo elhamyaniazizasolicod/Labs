@@ -101,7 +101,9 @@ style: |
   }
 ---
 
-<!-- « Bonjour, aujourd'hui, je vais vous présenter mon Lab sur la standardisation des Labs. » -->
+<!-- Bonjour, aujourd'hui je vais présenter mon Lab Planning. --> <br>
+<!-- Ce Lab parle de la standardisation des Labs. --> <br>
+<!-- Mon objectif est d'organiser les présentations. --> <br>
 
 <!-- _class: cover -->
 
@@ -122,8 +124,9 @@ style: |
 **Institution :** OFPPT
 
 ---
-<!-- « Dans cette présentation, je vais expliquer les différentes parties de mon travail. » -->
-
+<!-- Voici le plan de ma présentation. -->
+<!-- Je vais présenter les outils et les définitions. -->
+<!-- Ensuite, je vais expliquer le problème et la solution. -->
 # Plan de la présentation
 
 <div class="card">
@@ -176,7 +179,9 @@ Présentation des résultats et des apprentissages.
 </div>
 
 ---
-<!-- « Je vais présenter les technologies et les outils utilisés pour réaliser ce Lab. » -->
+<!-- Dans cette partie, je présente les outils utilisés. -->
+<!-- Ces outils nous aident à préparer les présentations. -->
+<!-- Ils facilitent aussi l'organisation du travail. -->
 # Stack technique
 
 <p class="subtitle">Technologies et outils utilisés dans le Lab.</p>
@@ -192,7 +197,9 @@ Présentation des résultats et des apprentissages.
 
 
 ---
-<!-- « Je vais expliquer les mots et les concepts importants de ce Lab. » -->
+<!-- Un Lab est un travail pratique. -->
+<!-- Un Quick Start aide à commencer rapidement. -->
+<!-- Un Template est un modèle réutilisable. -->
 # Définitions des concepts clés
 
 <div class="card">
@@ -245,7 +252,9 @@ Modèle réutilisable qui garantit une structure commune.
 </div>
 
 ---
-<!-- « Le problème est que les Labs n'ont pas toujours la même organisation, donc nous avons besoin d'un plan commun. » -->
+<!-- Les Labs n'ont pas toujours la même organisation. -->
+<!-- Chaque apprenant utilise un plan différent. -->
+<!-- Nous avons besoin d'un modèle commun. -->
 # Problématique et besoin
 
 ## Problématique
@@ -267,7 +276,9 @@ Mettre en place un plan commun, simple et adaptable pour améliorer la qualité 
 </div>
 
 ---
-<!-- « Ma solution est de créer un modèle simple de sept slides, que nous pouvons utiliser pour tous les Labs. » -->
+<!-- Ma solution est de créer un plan de sept slides. -->
+<!-- Ce plan est adapté aux différents types de Labs. -->
+<!-- Il aide les apprenants à organiser leur travail. -->
 # Solution et mise en pratique
 
 ## Solution proposée
@@ -305,7 +316,9 @@ Règles, processus, modèles et livrables concrets.
 </div>
 
 ---
-<!-- « Pour conclure, ce travail permet d'organiser les présentations et de gagner du temps. » -->
+<!-- Nous avons créé une structure simple et claire. -->
+<!-- Ce modèle permet de gagner du temps. -->
+<!-- Il améliore la qualité des présentations. -->
 # Résultats et conclusion
 
 ## Résultats attendus

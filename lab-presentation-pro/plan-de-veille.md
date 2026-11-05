@@ -7,7 +7,7 @@ style: |
   section {
     font-family: Arial, sans-serif;
     background: #f8fafc;
-    color: #1e293b;
+    color: #560ab47b;
     padding: 55px 70px;
     font-size: 22px;
   }

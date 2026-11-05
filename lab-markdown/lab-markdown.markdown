@@ -1,4 +1,7 @@
 
+<!--Mon projet est une plateforme de cours. -->
+<!-- Elle aide les débutants à apprendre le code -->
+<!-- Je vais présenter mon projet. -->
 # Présentation de mon projet technique
 
 ## Plateforme De Cours
@@ -11,6 +14,10 @@ Mon projet technique est une **Plateforme De Cours**.
 C'est une plateforme qui permet aux utilisateurs d'apprendre la programmation et de pratiquer le code.
 
 ---
+
+<!-- Mon objectif est de faciliter l'apprentissage. -->
+<!-- Les utilisateurs apprennent étape par étape. -->
+<!-- Ils peuvent aussi pratiquer le code. -->
 
 # 2. Objectif du projet
 
@@ -27,7 +34,9 @@ La plateforme permet de :
 > Apprendre à coder simplement et facilement.
 
 ---
-
+<!-- utilisateur peut créer un compte et se connecter.-->
+<!-- Il peut consulter les cours et faire des exercices.-->
+<!-- Il peut écrire du code et voir les résultats. -->
 # 3. Les fonctionnalités de la plateforme
 
 La plateforme propose plusieurs fonctionnalités :
@@ -40,7 +49,9 @@ La plateforme propose plusieurs fonctionnalités :
 6. Voir les résultats.
 
 ---
-
+<!--J'ai défini le sujet et les objectifs.-->
+<!-- J'ai créé l'interface de la plateforme. -->
+<!--Je dois développer et tester les fonctionnalités.  -->
 # 4. Les tâches du projet
 
 Voici les tâches à réaliser :
@@ -53,7 +64,9 @@ Voici les tâches à réaliser :
 - [ ] Corriger les erreurs.
 
 ---
-
+<!--HTML crée la structure des pages.-->
+<!--CSS et JavaScript rendent le site interactif.-->
+<!--PHP et SQL gèrent les données. -->
 # 5. Les langages de programmation
 
 Pour réaliser ce projet, nous pouvons utiliser plusieurs langages :
@@ -66,7 +79,9 @@ Pour réaliser ce projet, nous pouvons utiliser plusieurs langages :
 | PHP        | Partie serveur       |
 | SQL        | Gestion des données  |
 ---
-
+<!--Voici un exemple simple en HTML.-->
+<!-- Ce code affiche un titre et un texte. -->
+<!-- Il présente ma plateforme aux utilisateurs.  -->
 # 6. Exemple de code
 
 Voici un petit exemple en HTML :
@@ -86,7 +101,9 @@ Voici un petit exemple en HTML :
 ```
 
 ---
-
+<!--J'utilise W3Schools pour apprendre.-->
+<!-- Je consulte MDN pour comprendre le code. -->
+<!--J'utilise PHP Documentation pour apprendre PHP.  -->
 # 7. Ressources utiles
 
 Pour apprendre et développer la plateforme :
@@ -96,7 +113,9 @@ Pour apprendre et développer la plateforme :
 - [PHP Documentation](https://www.php.net/docs.php)
 - ![Programmation](images.jpg)
 ---
-
+<!-- Mon projet aide les débutants à apprendre.  -->
+<!-- Il rend la programmation plus facile.  -->
+<!-- Merci pour votre attention !   -->
 # 8. Conclusion
 
 Pour conclure, mon projet est une **Plateforme De Cours** destinée aux débutants de niveau A1.
@@ -106,7 +125,9 @@ Son objectif est de rendre l'apprentissage de la programmation simple, pratique 
 **Merci pour votre attention !**
 
 ---
-
+<!-- Apprendre aujourd'hui, c'est coder demain.-->
+<!-- Chaque difficulté est une occasion d'apprendre. -->
+<!-- Avec la pratique, je peux progresser. -->
 # Fin de la présentation
 
 *Apprendre aujourd'hui, coder demain !*

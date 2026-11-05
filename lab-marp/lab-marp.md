@@ -27,7 +27,9 @@ style: |
     background: #caf0f8;
   }
 ---
-<!-- Bonjour, aujourd'hui je vais vous présenter mon projet technique. -->
+<!-- Bonjour, aujourd'hui je vais présenter mon projet technique. -->
+<!-- Mon projet s'appelle Plateforme de Cours. -->
+<!-- Il aide les débutants à apprendre la programmation.  -->
 <!-- _class: cover -->
 
 ![width:120 OFPPT](images/ofppt.png)
@@ -42,7 +44,9 @@ Réalisé par : aziza elhamyani
 Encadré par : ES-SARRAJ Fouad
 
 ---
-<!-- Mon projet est une plateforme pour apprendre la programmation et pratiquer le code. -->
+<!-- La programmation est importante aujourd'hui. -->
+<!-- Mon projet est une plateforme pour apprendre le code. -->
+<!-- Elle est destinée aux débutants. -->
 # 1. Introduction
 
 Aujourd'hui, la programmation informatique est importante dans le monde numérique.
@@ -57,7 +61,9 @@ Cette plateforme permet aux débutants d'apprendre la programmation et de pratiq
 - Les personnes qui souhaitent apprendre à coder.
 
 ---
-<!-- Les débutants ont parfois des difficultés pour apprendre à programmer. -->
+<!-- Les débutants ont parfois des difficultés à apprendre le code. -->
+<!-- Ils ont besoin de cours simples et d'exercices. -->
+<!-- Ma plateforme répond à ce besoin. -->
 # 2. Besoin et problématique
 
 ## Problématique
@@ -75,7 +81,11 @@ Créer une plateforme simple qui facilite l'apprentissage de la programmation.
 
 
 ---
-<!-- La plateforme permet de créer un compte, suivre des cours et faire des exercices. -->
+<!-- La plateforme facilite l'apprentissage de la programmation. -->
+
+<!-- L'utilisateur peut créer un compte et se connecter. -->
+
+<!-- Il peut consulter les cours et faire des exercices. -->
 # 3. Analyse des besoins
 
 ## Objectif du projet
@@ -93,7 +103,11 @@ Faciliter l'apprentissage de la programmation pour les débutants.
 | Résultats | Consulter les résultats |
 
 ---
-<!-- Dans cette étape, nous préparons les diagrammes et organisons le fonctionnement de la plateforme. -->
+<!-- Dans cette étape, nous préparons le fonctionnement du site. -->
+
+<!-- Nous utilisons des diagrammes pour organiser le projet. -->
+
+<!-- Nous préparons aussi la base de données. -->
 # 4. Conception
 
 La conception permet d'organiser le fonctionnement de la plateforme avant le développement.
@@ -114,7 +128,11 @@ La conception permet d'organiser le fonctionnement de la plateforme avant le dé
 5. Il consulte ses résultats.
 
 ---
-<!--Pour créer la plateforme, nous utilisons HTML, CSS, JavaScript, PHP et MySQL.  -->
+<!-- Nous utilisons HTML pour créer les pages. -->
+
+<!-- Nous utilisons CSS et JavaScript pour le design et les interactions. -->
+
+<!-- Nous utilisons PHP et MySQL pour gérer les données. -->
 # 5. Réalisation
 
 ## Stack technique
@@ -138,8 +156,12 @@ Exemples :
 - Page de connexion.
 - Page des cours.
 - Page des exercices.
-<!-- La plateforme permet aux utilisateurs d'apprendre et de pratiquer le code.
--->
+  
+<!-- La plateforme permet d'apprendre la programmation. -->
+
+<!-- L'utilisateur peut suivre les cours et faire des exercices. -->
+
+<!-- Il peut aussi suivre ses résultats. -->
 # 6. Résultat du projet
 
 Le projet permet de proposer un espace d'apprentissage simple et pratique.
@@ -153,7 +175,11 @@ L'utilisateur peut :
 ---
 
 <!-- _class: highlight -->
-<!-- Ce projet aide les débutants à apprendre la programmation facilement.  -->
+<!--Mon projet aide les débutants à apprendre le code. -->
+
+<!-- Il rend l'apprentissage simple et pratique. -->
+
+<!-- Apprendre aujourd'hui, coder demain ! -->
 # 7. Conclusion
 
 Pour conclure, ce projet a pour objectif de faciliter l'apprentissage de la programmation informatique.

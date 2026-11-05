@@ -126,7 +126,10 @@ style: |
 
 <!-- _class: title -->
 <!-- _paginate: false -->
-<!-- Bonjour, aujourd'hui je vais vous présenter les Labs et les technologies de mon projet technique. -->
+<!-- Bonjour, aujourd'hui je vais présenter les Labs et les technologies. -->
+<!-- Mon projet technique est une plateforme de cours. -->
+ <!-- Je vais expliquer les technologies utilisées. -->
+
 ![width:120](images/ofppt.png)
 ![width:120](images/solicode.png)
 
@@ -145,7 +148,9 @@ style: |
 **Institution :** OFPPT
 
 ---
-<!-- Dans notre formation, nous apprenons plusieurs technologies pour créer une plateforme de cours en ligne. -->
+<!-- Notre projet est une plateforme de cours en ligne. -->
+<!-- Elle permet aux utilisateurs de consulter des cours. -->
+<!-- L'administrateur peut gérer les cours et les utilisateurs. -->
 <!-- _class: intro -->
 
 # Projet technique
@@ -170,7 +175,9 @@ L'administrateur peut gérer :
 La plateforme permet de trouver les cours facilement et de bien organiser les informations..
 
 ---
-<!--Pour créer notre plateforme, nous utilisons plusieurs technologies. Chaque technologie a un rôle différent. -->
+<!-- Nous utilisons plusieurs technologies pour créer notre plateforme. -->
+<!-- HTML, PHP et Laravel nous aident à développer le site. -->
+<!-- MySQL permet de stocker les informations. -->
 <!-- _class: stack -->
 
 # Les technologies utilisées
@@ -196,9 +203,12 @@ Chaque technologie a un rôle.
 | Kotlin | Android / backend development |
 
 ---
-## Project Tools
+<!-- Nous utilisons Git pour gérer le code. -->
+<!-- GitHub permet de partager notre travail. -->
+<!-- Marp nous aide à créer des présentations. -->
+## Outils de projet
 
-| Tool | Purpose |
+| Outil | Objectif |
 |:---|:---|
 | Git | Version control |
 | GitHub | Code hosting and collaboration |
@@ -210,7 +220,9 @@ Chaque technologie a un rôle.
 | Antigravity | AI-assisted development |
 | GitHub Copilot | AI coding assistant |
 ---
-<!-- Un Lab est un exercice pratique qui nous aide à découvrir une technologie et à apprendre à coder. -->
+<!-- Un Lab est un exercice pratique. -->
+<!-- Il nous aide à découvrir de nouvelles technologies. -->
+<!-- Les Labs nous préparent à réaliser notre projet. -->
 # Comprendre les Labs
 
 ## Qu'est-ce qu'un Lab ?
@@ -238,9 +250,10 @@ Nous testons les technologies avant de les utiliser dans le projet final.
 <!-- _class: labs -->
 
 # Liste des Labs
-| Phase 1 · Foundations & Tools | Phase 2 · Methods & Collaboration | Phase 3 · Development & Languages | Phase 4 · Project & Production |
+
+| Phase 1 · Fondamentaux et outils | Phase 2 · Méthodes et collaboration | Phase 3 · Développement et langages | Phase 4 · Projet et production |
 |:---|:---|:---|:---|
-| 1. What is a Lab?<br>2. Markdown<br>3. GitHub Pages<br>4. Antigravity<br>5. Marp<br>6. OpenCode<br>7. Pandoc<br>8. OmniRoute | 11. 2TUP<br>12. Design Thinking<br>13. GitHub Issues<br>14. Scrum<br>15. GitHub Copilot<br>16. ASCII | 9. Tailwind CSS<br>10. Preline<br>17. OOP<br>18. Native PHP<br>19. Laravel<br>20. Kotlin<br>21. ES7 JavaScript<br>22. JS Errors<br>23. Prompt-Agent-Skill | 24. AI Communication<br>25. Tech Watch<br>26. Starter<br>27. Planning<br>28. Git<br>29. Lab Stack<br>30. Agent |
+| 1. Qu'est-ce qu'un Lab ?<br>2. Markdown<br>3. GitHub Pages<br>4. Antigravity<br>5. Marp<br>6. OpenCode<br>7. Pandoc<br>8. OmniRoute | 11. 2TUP<br>12. Design Thinking<br>13. GitHub Issues<br>14. Scrum<br>15. GitHub Copilot<br>16. ASCII | 9. Tailwind CSS<br>10. Preline<br>17. POO (Programmation orientée objet)<br>18. PHP natif<br>19. Laravel<br>20. Kotlin<br>21. JavaScript ES7<br>22. Erreurs JavaScript<br>23. Prompt-Agent-Skill | 24. Communication avec l'IA<br>25. Veille technologique<br>26. Starter (modèle de projet)<br>27. Planification<br>28. Git<br>29. Stack technique du Lab<br>30. Agent |
 
 ---
 

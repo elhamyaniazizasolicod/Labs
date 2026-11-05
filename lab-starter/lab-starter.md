@@ -1,152 +1,48 @@
 ---
 marp: true
-theme: default
+theme: gaia
 paginate: true
-size: 16:9
 style: |
-  @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
-
   section {
-    background: #70020f;
-    color: #ffe0e3;
-    font-family: Arial, Helvetica, sans-serif;
-    font-size: 26px;
-    padding: 50px 60px;
-    text-transform: uppercase;
-    justify-content: flex-start;
-  }
-
-
-  h1, h2 {
-    font-family: 'Anton', Impact, 'Arial Narrow', sans-serif;
-    font-weight: 400;
-    color: #ffe0e3;
-    line-height: 0.98;
-    letter-spacing: -1px;
-    margin: 0 0 28px 0;
-  }
-
-  h1 { font-size: 100px; }
-  h2 { font-size: 68px; }
-
-  h3 {
-    font-size: 28px;
-    margin: 0 0 10px 0;
-    color: #e6d9dc;
-  }
-
-  p { margin: 0 0 12px 0; }
-
-  section.light {
-    background: #ffdde0;
-    color: #70020f;
-  }
-
-  section.light h1,
-  section.light h2,
-  section.light h3 {
-    color: #70020f;
-  }
-
-  section.light p,
-  section.light li {
-    color: #111;
-  }
-
-  section.title {
-    justify-content: space-between;
-  }
-
-  section.title h1 {
-    font-size: 116px;
-    margin-top: 8px;
-  }
-
-  section.title::before {
-    content: "DEV\\A ENV";
-    white-space: pre;
-    position: absolute;
-    right: -15px;
-    bottom: 10px;
-    font-family: 'Anton', Impact, sans-serif;
-    font-size: 250px;
-    line-height: 0.85;
-    color: #5f0010;
-    z-index: 0;
-  }
-
-  section.title h1,
-  section.title .by {
-    position: relative;
-    z-index: 1;
-  }
-
-  .by {
-    font-size: 20px;
-    text-transform: none;
-    margin-top: 20px;
-  }
-
-  .by strong {
-    font-family: 'Anton', Impact, sans-serif;
-    font-weight: 400;
-    text-transform: uppercase;
-    font-size: 27px;
-    display: block;
-  }
-
-  ul, ol {
-    font-size: 30px;
-    line-height: 1.35;
-  }
-
-  li { margin-bottom: 12px; }
-
-  code {
-    background: rgba(255, 224, 227, 0.13);
-    padding: 2px 7px;
-    border-radius: 4px;
-    text-transform: none;
-  }
-
-  section.light code {
-    background: rgba(112, 2, 15, 0.09);
-  }
-
-  .subtitle {
     font-size: 25px;
-    color: #e6d9dc;
-    text-transform: none;
+    padding: 50px;
   }
-
-  .small {
-    font-size: 21px;
-    line-height: 1.35;
-    text-transform: none;
+  h1 {
+    color: #0077b6;
   }
-
-  .step {
-    font-family: 'Anton', Impact, sans-serif;
-    font-size: 31px;
-    color: #ffe0e3;
+  h2 {
+    color: #bdc3cb;
   }
-
-  section.light .step {
-    color: #70020f;
+  section.cover {
+    text-align: center;
+    justify-content: center;
+    background: #03045e;
+    color: white;
+  }
+  section.cover h1 {
+    color: white;
+    font-size: 42px;
+  }
+  section.highlight {
+    background: #caf0f8;
   }
 ---
+<!-- Bonjour, aujourd'hui je vais vous présenter le Lab sur l'environnement de développement.-->
+<!-- _class: cover -->
 
-<!-- _class: title -->
+![width:120 OFPPT](images/ofppt.png)
+![width:120 Solicode](images/solicode.png)
 
 # Development<br>Environment
 
-<div class="by">
-  <strong>Etudiant : aziza elhamyani</strong>
-  <strong>Prof :ES-SARRAJ Fouad</strong>
-  Development Environment Lab
-</div>
+## Development Environent Lab
+
+Réalisé par : aziza elhamyani
+
+Encadré par : ES-SARRAJ Fouad
 
 ---
+<!-- Dans ce Lab, nous allons voir les problèmes et les solutions dans VS Code -->
 <!-- TODO: -->
 <!-- _class: light -->
 
@@ -158,7 +54,7 @@ style: |
 
 
 ---
-
+<!-- Pendant ce Lab, nous avons rencontré des problèmes avec les fichiers cachés et les extensions. -->
 ## Problems Encountered
 
 - Hidden files and folders, such as `.git`, were not visible in the file explorer.
@@ -166,6 +62,7 @@ style: |
 - We sometimes forgot which lines of code needed to be modified.
 
 ---
+<!-- Pour résoudre ces problèmes, nous avons affiché les fichiers cachés et installé Todo Lens. -->
 <!-- FIXME: -->
 <!-- _class: light -->
 
@@ -186,7 +83,7 @@ Adjusted the relevant VS Code option/extension setting so `.md` appeared in the 
 Installed **Todo Lens** to highlight important comments and reminders in the code.
 
 ---
-
+<!-- Un IDE est un outil qui permet d'écrire, de tester et de corriger le code. -->
 ## 3. What Is an IDE?
 
 An **IDE** (Integrated Development Environment) brings the tools for building software together in one workspace.
@@ -199,7 +96,7 @@ An **IDE** (Integrated Development Environment) brings the tools for building so
 <p class="small">Visual Studio Code is a code editor that becomes an IDE-like workspace through its built-in tools and extensions.</p>
 
 ---
-
+<!-- Pour installer une extension, nous ouvrons VS Code, nous cherchons l'extension et nous cliquons sur Install. -->
 <!-- _class: light -->
 
 ## Configure a VS Code Extension
@@ -213,7 +110,7 @@ An **IDE** (Integrated Development Environment) brings the tools for building so
 <p class="small">Example: install Live Server, then use its extension page/settings to choose how it launches your local web page.</p>
 
 ---
-
+<!-- Nous devons choisir les extensions utiles pour faciliter notre travail. -->
 ## Keep Extensions Useful
 
 - Install only extensions that support your work.

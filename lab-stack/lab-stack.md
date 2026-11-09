@@ -219,10 +219,12 @@ Chaque technologie a un rôle.
 | OmniRoute | AI model routing |
 | Antigravity | AI-assisted development |
 | GitHub Copilot | AI coding assistant |
+
 ---
 <!-- Un Lab est un exercice pratique. -->
 <!-- Il nous aide à découvrir de nouvelles technologies. -->
 <!-- Les Labs nous préparent à réaliser notre projet. -->
+
 # Comprendre les Labs
 
 ## Qu'est-ce qu'un Lab ?
@@ -267,3 +269,6 @@ Nous testons les technologies avant de les utiliser dans le projet final.
 **Labs et technologies**
 
 Aziza ELhamyani — Solicode Tanger
+
+
+

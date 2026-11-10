@@ -1,42 +1,41 @@
 # lab-php — erreurs, namespaces et traits
 
-Ce lab permet de découvrir et de pratiquer trois notions PHP qui ne sont pas encore étudiées en cours : la gestion des erreurs et des exceptions, les namespaces et les traits.
+## 1. Besoin du projet technique
 
-## Environnement
+Pendant l’apprentissage de PHP, certaines notions utiles au développement d’un projet technique ne sont pas encore étudiées en cours. Ce lab répond à ce besoin en proposant de les découvrir, de les comprendre et de les tester à travers des exemples pratiques.
 
-Les exemples utilisent PHP en ligne de commande et ne nécessitent aucun framework ni dépendance externe. Ils illustrent un scénario pédagogique de gestion et d’affichage de catégories et de cours; les données et classes sont fictives et ne sont pas présentées comme des éléments déjà intégrés au projet technique.
+Les notions abordées peuvent aider à :
 
-## Démarrage rapide
+- traiter explicitement les situations anormales, comme une catégorie introuvable;
+- organiser les classes et éviter les conflits de noms;
+- partager un comportement commun entre plusieurs classes lorsque cela est pertinent.
 
-Depuis le dossier `lab-php` :
+Le lab apporte une première mise en pratique réutilisable comme base de compréhension. Les exemples autour des catégories et des cours sont pédagogiques et autonomes : ils ne décrivent pas des fonctionnalités déjà intégrées au projet technique.
 
-```powershell
-php -v
-php hello-world.php
-```
+## 2. Notions et techniques à apprendre
 
-Le premier appel affiche la version de PHP disponible. Le second doit afficher :
+Le lab doit expliquer les notions de base, les concepts et les techniques suivants :
 
-```text
-Bonjour, PHP !
-```
+| Notion | Concepts et techniques à apprendre |
+|:--|:--|
+| Gestion des erreurs et des exceptions | Différencier une situation anormale, déclencher une exception avec `throw`, et traiter les cas attendus avec `try` et `catch`. |
+| Namespace | Organiser les classes, comprendre leur nom complet et permettre à des classes de même nom court de coexister. Distinguer les namespaces du chargement automatique des fichiers. |
+| Trait | Partager une méthode entre plusieurs classes avec `use`, comprendre les exigences du trait envers les classes qui l’utilisent et connaître ses limites. |
 
-## Notions et exemples
+Les exemples doivent pouvoir être exécutés avec PHP en ligne de commande, sans framework ni dépendance externe.
 
-| Notion | Exemple exécutable | Tutoriel |
-|:--|:--|:--|
-| Gestion des erreurs et exceptions | [gestion-erreurs/exemple.php](./gestion-erreurs/exemple.php) | [gestion-erreurs/tutoriel.md](./gestion-erreurs/tutoriel.md) |
-| Namespace | [namespace/exemple.php](./namespace/exemple.php) | [namespace/tutoriel.md](./namespace/tutoriel.md) |
-| Trait | [trait/exemple.php](./trait/exemple.php) | [trait/tutoriel.md](./trait/tutoriel.md) |
+## 3. Réalisation attendue
 
-Exécuter chaque démonstration depuis ce dossier :
+Créer un mini-lab PHP pratique, clair et directement exécutable. Utiliser un scénario illustratif de catégories et de cours, sans prétendre que les classes ou données de démonstration existent dans le projet technique.
 
-```powershell
-php gestion-erreurs/exemple.php
-php namespace/exemple.php
-php trait/exemple.php
-```
+Le livrable doit inclure :
 
-Chaque tutoriel décrit le rôle de la notion, les blocs importants du code, la commande, le résultat observable, le lien avec le projet et une limite ou un exercice.
+- un fichier `hello-world.php` et un Quick Start depuis le dossier `lab-php`;
+- un sous-dossier par notion, contenant un `exemple.php` exécutable et un `tutoriel.md` associé;
+- un exemple d’exception qui traite un identifiant invalide ou une catégorie absente;
+- un exemple de namespace qui montre comment distinguer des classes portant le même nom court;
+- un exemple de trait qui partage un comportement pertinent entre des classes, par exemple le formatage de libellés de catégories et de cours;
+- dans chaque tutoriel, l’objectif, les étapes importantes du code, la commande d’exécution, le résultat attendu, le lien avec le projet technique et une limite ou un exercice complémentaire;
+- des commandes et résultats cohérents avec les scripts fournis.
 
-Le plan de présentation est disponible dans [presentation.md](./presentation.md).
+L’IA peut proposer des améliorations pertinentes au périmètre du lab — par exemple un test ou un exercice supplémentaire — à condition qu’elles restent simples, compatibles avec PHP natif et clairement présentées comme des propositions. Ne pas ajouter de framework, inventer une fonctionnalité du projet ni présenter les exemples comme une intégration existante.

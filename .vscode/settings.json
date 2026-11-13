@@ -5,7 +5,34 @@
         "**/.hg": true,
         "**/.jj": true,
         "**/.DS_Store": true,
-        "**/Thumbs.db": true
+        "**/Thumbs.db": true,
+        "lab-poo": true,
+        "lab-marp": true,
+        "lab-markdown": true,
+        "lab-erreur-js": true,
+        "lab-planning": true,
+        "lab-presentation-pro": true,
+        "lab-prompt-task": true,
+        "tablaux-ascii": true,
+        "marp": true,
+        "liste-lab": true,
+        "determiner_la_liste_des _labs_a_realiser.md": true,
+        "what_is_lab": true,
+        "presantation_mvc": true
     },
-    "hide-files.files": []
+    "hide-files.files": [
+        "lab-poo",
+        "lab-marp",
+        "lab-markdown",
+        "lab-erreur-js",
+        "lab-planning",
+        "lab-presentation-pro",
+        "lab-prompt-task",
+        "tablaux-ascii",
+        "marp",
+        "liste-lab",
+        "determiner_la_liste_des _labs_a_realiser.md",
+        "what_is_lab",
+        "presantation_mvc"
+    ]
 }

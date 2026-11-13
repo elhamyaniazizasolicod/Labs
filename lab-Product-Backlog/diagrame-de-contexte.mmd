@@ -1,0 +1,11 @@
+usecase-beta
+direction LR
+actor Laureates("Lauréats / auteurs")
+actor Readers("Lecteurs")
+actor Admin("Administrateur")
+
+system ["Système de gestion de Blog"]
+
+Laureates --Articles, biographies et actualités--system
+Readers --Consultation des contenus--system
+Admin --Gestion et publication des contenus-- system

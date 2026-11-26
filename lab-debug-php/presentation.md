@@ -27,6 +27,8 @@ style: |
 ---
 
 <!-- _class: cover -->
+![width:120](images/ofppt.png)
+![width:120](images/solicode.png)
 
 # lab-debug-php
 
